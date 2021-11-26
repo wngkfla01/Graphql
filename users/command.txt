@@ -1,0 +1,10 @@
+pip install graphene-django
+
+# Part 2
+1. query has exactly the same shape as the result
+2. Use DjangoListField
+3. Custom resolve - traverse related objects
+    a. get all quiz
+    b. get all questions
+4. Additional filtering
+5. Arguments
